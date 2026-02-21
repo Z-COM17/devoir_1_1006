@@ -16,9 +16,10 @@ def draw_belgian_state_flag(filename: str) -> None:
     for x in range(2*width//3,width):
         for y in range(height):
             pixels[x, y] = (239, 51, 64) # Red
-    img = img.transpose(Image.FLIP_LEFT_RIGHT)
+    # img = img.transpose(Image.FLIP_LEFT_RIGHT)
     img.save(filename)
+    return img
 
-draw_belgian_state_flag("belgium.png")
+draw_belgian_state_flag("belgium.bmp")
 
 
