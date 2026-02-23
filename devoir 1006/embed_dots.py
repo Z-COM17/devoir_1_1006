@@ -78,7 +78,11 @@ def yellow_laser_ember(img, minute: int, hour: int, day: int, month: int, year: 
                     parity ^= 1 # toggles between 0 and 1 if the current column is activated
         if parity:
             img.putpixel((width + 21, height + row), (255, 255, 0)) # yellow if the number of the active columns is pair? idk if it should be pair or odd
-
+        for i in range(22):
+            for j in range(8):
+                if img.getpixel([width + i, height + j]) != (255, 255, 0):
+                    img.putpixel((width + i, height + j), (255, 255, 1))
+                
 
 def validate_serial(value: str) -> str:
     """Validate that serial is exactly 6 printable ASCII characters."""

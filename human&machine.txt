@@ -1,0 +1,12 @@
+erreurs et critère ergonomiques:
+
+- titres sans sence claire.
+- Police dificile à lire.
+- Trop d'icons mouvent.
+- Ordre des items pas compatible "no coerente y poco intuitivo"
+- Background difficulte la lisibilité du texte ou des liens, charge de travail.
+- Paragraphes mal sructurés.
+- "Estetica", satisfaccion del usuario.
+- Language non-adapter a tous les publiques.
+- Notas para el usuario con terminos infirmaticos o tecnicos.
+- des buoton sans destination claire, exp: next/previous "sin contexto claro"

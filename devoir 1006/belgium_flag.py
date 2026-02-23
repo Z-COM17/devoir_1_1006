@@ -23,3 +23,23 @@ def draw_belgian_state_flag(filename: str) -> None:
 draw_belgian_state_flag("belgium.bmp")
 
 
+# EX3
+
+def draw_belgian_state_flag(filename: str, height: int) -> None:
+
+    # Define your colors, your width and your height
+    (width, height) = (height*13//15, height)
+    img = Image.new("RGB", (width, height), (0,0,0))
+    pixels = img.load()
+
+    # Here, you can fill the "pixels" map
+    for x in range(width//3,2*width//3):
+        for y in range(height):
+            pixels[x, y] = (253, 218, 36) # Yellow
+    for x in range(2*width//3,width):
+        for y in range(height):
+            pixels[x, y] = (239, 51, 64) # Red
+    img.save(filename)
+
+# draw_belgian_state_flag("belgium.bmp", 200)
+

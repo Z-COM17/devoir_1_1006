@@ -7,3 +7,11 @@ DOUBTS:
     because IDK if I use 0 to 21 or 1 to 22 on practice, it feels more likely to be 0, 
     so it starts in 30 not 31
     - why the system library is imported ?!!
+    - the activated pixel should be inperciptible?
+
+  for EX7:
+    - this just reverse the EX6, use chr() in place of ord(),
+    in order to get the ascii interpretation
+  
+  for EX8:
+    - this practically a test for EX7 so if you have EX7 you have EX8
